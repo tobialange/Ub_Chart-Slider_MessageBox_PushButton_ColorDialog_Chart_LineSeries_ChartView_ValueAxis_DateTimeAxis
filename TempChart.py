@@ -4,8 +4,6 @@ from PySide6.QtCore import Qt, QDateTime
 from PySide6.QtGui import QColor, QMouseEvent, QPen
 
 
-#Foto von Programm hinzufügen
-
 class TempChart(QWidget):
     def __init__(self, parent):
         super(TempChart, self).__init__(parent)
